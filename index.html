@@ -3,30 +3,29 @@
 <head>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 <style>
-    body {
-        font-family: 'Tangerine', serif;
-        font-size: 12px;
-      } 
-    h1{ color: azure;
-    font-size: 100px;}
-    a:hover{color: blueviolet;
-    font-size: large;}
-    a:visited{color: green;}
-   
 
 </style>
 <body>
-    <div id = container>
+    <div id = "container">
         <header>
             <h1>Teen Titans</h1>
         </header>
-        <nav></nav>
+        <nav id = "navbar"> 
+            <div class = "container">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href="">About</a></li>
+                </ul>
+            </div>
+        </nav>
         <section class = "mainleft"> 
             <img src="image/Teen-Titans-2003.jpg" width="150px" height="150">
             <img src="image/newteentitanscomic.jpg" width="100px">
         </section>
         <section class = "mainright">
-            <article >
+            <article>
                 <a href="https://teentitans.fandom.com/wiki/Teen_Titans_(series)" style="float:left;">
                     <img border="0" alt="Teen Titans" src="image/teentitanrn.jpg" width="100">
                 </a>
@@ -34,7 +33,6 @@
                 <h2>Teen Titans is a DC superhero team of teenage sidekicks. They where popular to 
                      to have a TV show in 2003. The person in the right on this text is Robin the team leader 
                     and the frist Robin named Dick Grasyon. Who is also the superhero Nightwing.
-
                 </h2>
                 <p>This is website with show my favorte Teen Titan media I like to consume. In adtion to
                     listing the main teen titnas member in the 2003 TV show.
@@ -44,41 +42,72 @@
                     or click on Robin.</p>
             </article>
         </section>
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Media type</th>
-                    <th>Year</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Teen Titans</td>
-                    <td>TV seiers</td>
-                    <td>2003</td>
-                </tr>
-                <tr>
-                    <td>Teen Titans Go</td>
-                    <td>comic</td>
-                    <td>2007</td>
-                </tr>
-                <tr>
-                    <td>New Teen Titans</td>
-                    <td>comic</td>
-                    <td>1998</td>
-                </tr>
-    
-            </tbody>
-        </table>
-        <p>List on the Teen Titan members as seen on the frist photo on the left. </p>
-        <ol>
-            <li> Cyborg</1i>
-            <li> Starfire</1i>
-            <li> Beastboy</1i>
-            <li> Robin</1i>
-            <li> Raven</1i>
-        </ol> 
+        <section class = "bottomleft">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Media type</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Teen Titans</td>
+                        <td>TV series</td>
+                        <td>2003</td>
+                    </tr>
+                    <tr>
+                        <td>Teen Titans Go</td>
+                        <td>comic</td>
+                        <td>2007</td>
+                    </tr>
+                    <tr>
+                        <td>New Teen Titans</td>
+                        <td>comic</td>
+                        <td>1998</td>
+                    </tr>
+        
+                </tbody>
+            </table>
+            <div style = "margin-left: 20px;">
+                <p>List on the Teen Titan members as seen on the frist photo on the left. </p>
+                <ol>
+                    <li> Cyborg</1i>
+                    <li> Starfire</1i>
+                    <li> Beastboy</1i>
+                    <li> Robin</1i>
+                    <li> Raven</1i>
+                </ol>
+            </div>
+        </section> 
+        <section class = "bottomright">
+            <p>&#127916 This is a video of the Teen Titan 2003 TV 
+                series theme song. &#127909;</p>
+                <iframe width="200" height="100" src="https://www.youtube.com/embed/yL75mtNZ6PA?si=4ABoX37X_BaacIUb" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+                picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+        </section>
+        <section class = "thridleft">
+            <form class="myform">
+                <div class="form-group">
+                    <label> name:</label>
+                    <input type="text" name="name">
+                </div>
+                <div class="form-group">
+                    <label> email:</label>
+                    <input type="text" name="email">
+                </div>
+                <div class="form-group">
+                    <label> message:</label>
+                    <input type="message" name="textarea">
+                </div>
+                <input class="button" type="submit" value="submit" name="">
+        
+            </form>
+        </section>
         <footer>copyright 2025</footer>
     
     </div>
